@@ -1,70 +1,66 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# class 1 (Javascript)
+Data Types
 
-In the project directory, you can run:
+1. String => naam => "AS SA a sA S"
+2. Number => 2 23 323 , doube qoute "" nahi hai
+                2 4 5 6 => yes numbe rhai
+                "2" => data type string
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Boolean => condition True | False
+        => haan ya to naa
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. null => jiski koi value nahi hai.
+5. undefined => jo defined nahi hai.
+6. Object => 1. Anything that exist, and can be proved scientifycally its existence it is object.
+              2.  Anything that have feature, properties or behaviour.
 
-### `npm test`
+        const car1 = {};
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+        const car2 = {
+            key: value
+        }
 
-### `npm run build`
+        const car3 = {
+            color: "green",
+            model: "suzuki x5",
+            year: 2016,
+            isNew: false,
+        }
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+7. Array => array ka mtlb hai collection, group
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    const students = [
+        "ridhen",
+        "aman",
+        "ankit"
+    ];
 
-### `npm run eject`
+    const price = [
+        5,
+        10,
+        15,
+        34
+    ];
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    syntax to know which data type a variable belongs to,
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    typeof variableName;
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Operators
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Arithmetic Operators (+, - , * , / , % (modulus) )
+2. Comparision Operators( < , >, == , =< , >=)          => boolean TRUE / FALSE
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# if else
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. if( condition ){
 
-### Code Splitting
+}
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. if ( condition )
