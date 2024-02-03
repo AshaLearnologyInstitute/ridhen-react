@@ -63,4 +63,33 @@ Data Types
 }
 
 
-2. if ( condition )
+2. if ( condition ) {
+        TRUE
+} else {
+    FALSE
+}
+
+3. if (condition 1) {
+    CONDITION 1 TRUE
+} else if (condition 2) {
+    CONDITION 2 TRUE
+} else if (condition 3) {
+    CONDITION 3 TRUE
+} else {
+    FALSE
+}
+
+4. nested if else
+
+    if (condition 1){
+        CONDITION TRUE
+
+        if(condition 2){
+condition 2 TRUE
+        } else {
+condition 2 FALSE
+        }
+
+    } else {
+        FALSE
+    }
